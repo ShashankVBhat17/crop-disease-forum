@@ -20,12 +20,3 @@ A web application for farmers and agricultural enthusiasts to identify crop dise
 
 ---
 
-
-
-4. Run the server:
-
-npm start
-
-
-5. Open frontend/index.html in a browser.
-
