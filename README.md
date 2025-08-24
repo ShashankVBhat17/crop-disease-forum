@@ -25,6 +25,7 @@ A web application for farmers and agricultural enthusiasts to identify crop dise
 
 <img src="https://github.com/ShashankVBhat17/crop-disease-forum/raw/6da2e898c8972f4f56cfce132600df879a47fa1d/Screenshot%202025-08-24%20132915.png" alt="Add Post Screenshot" width="700"/>
 
-<img src="https://github.com/ShashankVBhat17/crop-disease-forum/raw/[6da2e898c8972f4f56cfce132600df879a47fa1d/Screenshot%202025-08-24%20132915.png](https://github.com/ShashankVBhat17/crop-disease-forum/blob/15fb1541a81569c92c2ab961e336e9bdc5e8d73e/Screenshot%202025-08-24%20133013.png)" alt="Add Post Screenshot" width="700"/>
+<img src="https://github.com/ShashankVBhat17/crop-disease-forum/raw/6da2e898c8972f4f56cfce132600df879a47fa1d/Screenshot%202025-08-24%20132915.png" alt="Add Post Screenshot" width="700"/>
+
 
 
