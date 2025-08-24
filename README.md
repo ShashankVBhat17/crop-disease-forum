@@ -20,20 +20,6 @@ A web application for farmers and agricultural enthusiasts to identify crop dise
 
 ---
 
-## Setup
-1. Clone the repo:
-```bash
-git clone https://github.com/ShashankVBhat17/crop-disease-forum.git
-Install backend dependencies:
-
-2. cd backend
-npm install
-
-
-3. Configure MongoDB in .env:
-
-MONGO_URI=your_connection_string
-JWT_SECRET=your_secret_key
 
 
 4. Run the server:
