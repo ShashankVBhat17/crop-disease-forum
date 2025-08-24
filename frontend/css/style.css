@@ -1,0 +1,359 @@
+/* -------------------- General -------------------- */
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f6f8;
+}
+
+/* Header */
+header {
+  background: #28a745;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+/* Landing Page */
+.landing-container {
+  text-align: center;
+  margin: 10vh auto;
+  max-width: 800px;
+}
+
+.landing-container h1 {
+  color: #28a745;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.landing-container p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+/* Landing Page Buttons Styling */
+.get-started,
+.login-btn,
+.register-btn {
+  display: inline-block;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: 0.3s;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.get-started {
+  background: #28a745;
+  color: white;
+}
+
+.get-started:hover {
+  background: #218838;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+
+.login-btn {
+  background: #17a2b8;
+  color: white;
+}
+
+.login-btn:hover {
+  background: #138496;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+
+.register-btn {
+  background: #ffc107;
+  color: #212529;
+}
+
+.register-btn:hover {
+  background: #e0a800;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+
+/* Features Section */
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 3rem 1rem;
+  gap: 1rem;
+}
+
+.feature-card {
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  max-width: 250px;
+  text-align: center;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Forms */
+.form-container {
+  max-width: 400px;
+  margin: 3rem auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #28a745;
+}
+
+.form-container input,
+.form-container textarea,
+.form-container button {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.6rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form-container button {
+  background: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.form-container button:hover {
+  background: #218838;
+}
+
+/* Dashboard Controls */
+.dashboard .dashboard-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  flex-wrap: wrap;
+}
+
+.dashboard .dashboard-controls .search-input {
+  flex: 1;
+  max-width: 300px;
+  padding: 0.5rem 0.8rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+}
+
+.dashboard .dashboard-controls .add-post-btn {
+  background: #28a745;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.dashboard .dashboard-controls .add-post-btn:hover {
+  background: #218838;
+}
+
+/* Dashboard Posts */
+.dashboard .posts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* center all posts */
+  gap: 1.5rem;
+  padding: 1rem 2rem;
+}
+
+.dashboard .post {
+  width: 100%;
+  max-width: 700px; /* limit post width for better reading */
+  background: white;
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.dashboard .post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.dashboard .post img.post-img {
+  max-width: 100%;
+  max-height: 250px;
+  display: block;
+  margin: 0.5rem 0;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.dashboard .tags-container {
+  margin: 0.5rem 0;
+}
+
+.dashboard .tag-badge {
+  display: inline-block;
+  background: #d4edda;
+  color: #155724;
+  padding: 0.2rem 0.5rem;
+  margin-right: 0.3rem;
+  border-radius: 5px;
+  font-size: 0.8rem;
+}
+
+/* Post Actions (Like, Comment, Delete) */
+.dashboard .post-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.dashboard .post-actions button {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.9rem;
+  transition: 0.3s;
+}
+
+.dashboard .post-actions button:hover {
+  background: #218838;
+}
+
+/* Comments */
+.dashboard .commentsContainer {
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+  border-left: 2px solid #28a745;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.dashboard .commentsContainer.collapse {
+  display: none;
+}
+
+.dashboard .commentsContainer p {
+  margin: 0.3rem 0;
+  background: #f1f1f1;
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+}
+
+.dashboard .commentsContainer form {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.3rem;
+}
+
+.dashboard .commentsContainer input {
+  flex: 1;
+  padding: 0.3rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.dashboard .commentsContainer button {
+  padding: 0.3rem 0.6rem;
+  border-radius: 5px;
+  border: none;
+  background: #28a745;
+  color: white;
+  cursor: pointer;
+}
+
+.dashboard .commentsContainer button:hover {
+  background: #218838;
+}
+
+/* Replies */
+.dashboard .comment-replies {
+  margin-left: 1.5rem;       /* indent for replies */
+  padding-left: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.dashboard .comment-replies p {
+  background: #f0f9f5;       /* lighter color to distinguish */
+  padding: 0.25rem 0.5rem;
+  border-radius: 5px;
+  font-size: 0.85rem;
+  margin: 0;
+  border-left: 3px solid #a8e0c4;  /* subtle left border */
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #f4f6f8;
+  color: #555;
+}
+
+/* Responsive */
+@media(max-width:768px){
+  header {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .dashboard .posts-container {
+    padding: 1rem;
+  }
+
+  .dashboard .post img.post-img {
+    max-height: 200px;
+  }
+
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dashboard .dashboard-controls {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
